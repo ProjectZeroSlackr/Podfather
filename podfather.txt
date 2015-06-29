@@ -1,0 +1,46 @@
+Podfather
+
+by Hooy-Program
+
+for Sundown 2005
+
+Credits
+-------
+Code / graphics - Gasman
+Music - Yerzmyey
+
+
+Requirements
+------------
+Should work on any monochrome iPod (excluding iPod Mini), but only
+tested on 4g (click wheel).
+
+Installing
+----------
+Ha, now you're talking. First get iPodLinux running - see
+http://ipodlinux.org/ . Then create a directory 'podfather' at the
+root of your iPod, and copy all the demo files into it. Edit /etc/rc,
+and add the following lines at the end (replacing the 'podzilla'
+line if you have it):
+
+cd podfather
+./podfather
+
+Finally, boot your iPod into Linux - the demo should start
+automatically.
+
+(Or if you've got Sash set up appropriately, you can run podfather manually.)
+
+You can't quit the demo, and due to some weirdness with
+MikMod it doesn't exit properly at the end, so you have to do a
+hard reboot. Sorry about that.
+
+Copyright
+---------
+Copyright (C) 2005 Hooy-Program. This demo is licensed under the
+Creative Commons Attribution Non-commercial Share Alike (by-nc-sa)
+licence: http://creativecommons.org/licenses/by-nc-sa/2.5/
+
+                                          Gasman
+                                          - Budleigh, UK
+                                          - 2005-09-10
